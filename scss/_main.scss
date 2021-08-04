@@ -1,0 +1,122 @@
+.main {
+    padding-bottom: 300px;
+    .main-img {
+        position: absolute;
+        transform: translateX(-0%);
+        left: 0;
+        top: 130px;
+
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .main-title {
+        text-align: center;
+        font-weight: 900;
+        font-size: 80px;
+        color: #ed6036;
+    }
+    .main-text {
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 1.6;
+        color: #ffffff;
+        margin-bottom: 40px;
+
+        span {
+            color: #ed6036;
+        }
+    }
+    .main-content {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        z-index: 99;
+
+        .main-form {
+            width: 530px;
+            padding: 30px 10px;
+            background-color: rgb(10, 10, 10);
+            border-radius: 10px;
+            box-shadow: 0px 0px 71.1px 7.9px rgba(255, 255, 255, 0.04);
+
+            .main-form__title {
+                text-align: center;
+                color: #ffffff;
+                font-size: 20px;
+                margin-bottom: 40px;
+                font-family: "Montserrat Alternates", sans-serif;
+            }
+            .main-form__text {
+                text-align: center;
+                font-family: "Montserrat Alternates", sans-serif;
+                color: #858585;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+            .main-social {
+                width: 210px;
+                margin: 0 auto;
+
+                .main-social__link {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 12px 0;
+                    color: #ffffff;
+                    font-family: "Montserrat Alternates", sans-serif;
+                    font-weight: 700;
+                    margin-bottom: 30px;
+                    border: 1px solid #ed6036;
+                    border-radius: 10px;
+
+                    img {
+                        display: block;
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 10px;
+                        object-fit: contain;
+                    }
+                }
+            }
+            .timer-wrapper-title {
+                text-align: center;
+                color: #ed6036;
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+            .countdown {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .countdown-number {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 10%;
+                }
+                .timer-line {
+                    position: relative;
+                    transform: translateY(-10px);
+                    color: #ed6036;
+                    font-size: 28px;
+                    font-weight: 700;
+                }
+                .countdown-time {
+                    color: #ed6036;
+                    font-size: 28px;
+                    font-weight: 700;
+                }
+                .countdown-text {
+                    color: #ed6036;
+                }
+            }
+        }
+    }
+}
